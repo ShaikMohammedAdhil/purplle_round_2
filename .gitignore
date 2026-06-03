@@ -1,0 +1,21 @@
+__pycache__/
+.venv/
+*.pyc
+
+# Database
+data/store.db
+
+# CCTV footage
+data/CCTV Footage/
+*.mp4
+*.avi
+*.mov
+
+# Generated outputs
+data/pipeline_outputs/
+
+# Test cache
+.pytest_cache/
+
+# Environment files
+.env
