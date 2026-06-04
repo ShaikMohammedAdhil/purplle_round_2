@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "event_id": "sample_1",
+      "store_id": "STORE_001",
+      "camera_id": "CAM_1",
+      "visitor_id": "CAM_1_VISITOR_000001",
+      "event_type": "ENTRY",
+      "timestamp": "2026-06-03T10:00:00Z",
+      "zone_id": "ENTRY_ZONE",
+      "dwell_ms": 0,
+      "is_staff": false,
+      "confidence": 0.95,
+      "metadata": {}
+    },
+    {
+      "event_id": "sample_2",
+      "store_id": "STORE_001",
+      "camera_id": "CAM_1",
+      "visitor_id": "CAM_1_VISITOR_000001",
+      "event_type": "ZONE_ENTER",
+      "timestamp": "2026-06-03T10:00:15Z",
+      "zone_id": "SKINCARE_ZONE",
+      "dwell_ms": 15000,
+      "is_staff": false,
+      "confidence": 0.92,
+      "metadata": {}
+    }
+  ]
+}
